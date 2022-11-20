@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-br">
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/normalize.css">
+<link rel="stylesheet" href="/reset.css">
+<link rel="stylesheet" href="/css/style.css">
+<title>Decodificador</title>
+
+<body>
+  <header class="cabecalho">
+    <img src="/img/bandeira_trans.png" alt="Bandeira Trans">
+  </header>
+
+  <main>
+    <section>
+      <textarea class="input-texto" cols="40" rows="10" placeholder="Digite seu texto"></textarea>
+      <div>
+        <input type="hidden" class="input-original-oculto">
+      </div>
+
+      <div id="div-desaparece">
+        <h6 class="informacao">Apenas letras minúsculas e sem acento.</h6>
+      </div>
+
+      <div class="botoes">
+        <button type="button" class="encriptar" onclick="btnEncriptar()">Criptografar</button>
+        <button type="button" class="desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+      </div>
+    </section>
+
+    <section>
+      <textarea class="mensagem" cols="40" rows="10" placeholder="Resultado Criptografado"></textarea>
+      <div class="botoes">
+        <button type="button" class="copiar" onclick="btnCopiar()">Copiar</button>
+        <button type="button" class="limpar" onclick="btnLimpar()">Limpar</button>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p> Desenvolvido por Tarcísio Barbosa</p>
+    <a href="https://github.com/otarcisio" target="_blank">
+      <img src="/img/GitHub.png" alt="Ícone GitHub">
+    </a>
+    <a href="https://www.linkedin.com/in/tarcisio-barbosa/" target="_blank">
+      <img src="/img/linkedin.png" alt="Ícone LinkedIn">
+    </a>
+  </footer>
+  <script src="/script.js"></script>
+
+</body>
+
+</html>

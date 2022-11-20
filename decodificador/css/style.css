@@ -1,0 +1,83 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal ;
+  line-height: 100%;
+}
+
+body {
+  background: #CEF0D1;
+}
+
+.cabecalho {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+main {
+  display: flex;
+  margin: 100px;
+} 
+
+
+.informacao {
+  font-size: 15px;
+}
+
+.encriptar,
+.desencriptar {
+  background-color: #F0CED1;
+  border-radius: 5px;
+  color: #676E7A;
+  position: relative;
+  margin-top: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.desencriptar {
+  margin-left: 30px;
+}
+
+
+.mensagem {
+  position: relative;
+  margin-left: 250px;
+}
+
+.copiar {
+  background-color: #F0CED1;
+  border-radius: 5px;
+  color: #676E7A;
+  margin-top: 35px;
+  margin-left: 250px;
+  position: relative;
+}
+
+.limpar {
+  background-color: #F0CED1;
+  border-radius: 5px;
+  color: #676E7A;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2em;
+}
+
+footer p {
+  font-size: 15px;
+}
+
+footer li {
+  display: inline-block;
+  margin-top: 0.5em;
+}
+
+footer li img {
+  width: 20px;
+}
